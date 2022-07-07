@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #14141a;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 350px;
+  gap: 10px;
+  padding: 30px;
+  background-color: #212530;
+  color: #fff;
+  border-radius: 25px;
+}
+
+.card__icon button {
+  width: 35px;
+  height: 35px;
+  background-color:#282f37;
+  color: #e08142;
+  font-size: 15px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+p {
+  color: #5a5c68;
+  font-size: 0.8em;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li button {
+  width: 45px;
+  height: 45px;
+  background-color:#282f37;
+  color: #5a5c68;
+  border-radius: 50px;
+}
+
+button {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 50px;
+  border: none;
+  background-color: #ed7d36;
+  color: #fff;
+  font-size: 900;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+}
+
