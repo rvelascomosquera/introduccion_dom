@@ -10,13 +10,13 @@ let opcion = document.createElement("ul");
 
 for (let i = 1; i < 6; i++) {
   let items = document.createElement("li");
-  let butt = document.createElement("button");
-  butt.classList.toggle('.card__item--circle')
-  butt.setAttribute('onclick','Send()')
-  butt.setAttribute('value',`${i}`)
+  let choice = document.createElement("button");
+  choice.classList.toggle('.card__item--circle')
+  choice.setAttribute('onclick','Send()')
+  choice.setAttribute('value',`${i}`)
   let content = document.createTextNode(i);
-  butt.appendChild(content)
-  items.appendChild(butt)
+  choice.appendChild(content)
+  items.appendChild(choice)
   opcion.appendChild(items)
 }
 
